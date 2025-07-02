@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #778da9;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #0d1b2a;
+    color: #fff;
+    text-align: center;
+    padding: 40px 40px;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-top: 20px;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+header img {
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+header button {
+    background-color: #e0e1dd;
+    color: #000;
+    /* why the button set the padding */
+    padding: 10px 10px;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3 ease;
+}
+
+header button:hover {
+    background-color: rgba(234, 200, 200, 0.356);
+    color: #f5ebe0;
+}
+
+main {
+    padding: 30px 20px;
+    max-width: 800px;
+    margin: 0 auto; 
+    /* need to learn */
+    background-color: #1b263b;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(250,250,250,0.3);
+    /* position: relative;
+    left: 22%; */
+}
+
+main section {
+    margin-bottom: 30px;
+}
+
+main h3 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+main ul {
+    /* need to learn */
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+footer {
+    background-color: #0d1b2a;
+    color: #fff;
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 40px;
+}
+
+footer ul {
+    /* remove dots from the lists  */
+    list-style: none;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+footer li {
+    margin-bottom: 5px;
+}
+
+
+@media (max-width : 600px) {
+    header img {
+        width : 90%;
+        height: auto;
+    }
+    header h1 {
+        font-size: 2rem;
+    }
+
+    main {
+        width: 50%;
+        padding: 20px 10px;
+    }
+}
+
